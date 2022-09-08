@@ -1,0 +1,25 @@
+### C - Create
+POST http://localhost:8080/logins
+Content-Type: application/json
+
+{
+  "name": "Teste",
+  "password": "0000"
+}
+
+### R - Read
+GET http://localhost:8080/logins
+Content-Type: application/json
+
+### U - Update
+PUT http://localhost:8080/logins/631a666b0011d60730f573a1
+Content-Type: application/json
+
+{
+  "name": "Ailon",
+  "password": "222"
+}
+
+### D - Delete
+DELETE http://localhost:8080/logins/631a666b0011d60730f573a1
+Content-Type: application/json
